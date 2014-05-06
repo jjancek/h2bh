@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-H2bh::Application.config.secret_key_base = 'd9eba79d8dafb93eeaf668e5665115a9d03530d39580514e738bb9a83367e513b6e13e147a1686065e5ee42e1b8f5c1a7eabc4722b1cef3cfe2f7a892270e517'
+H2bh::Application.config.secret_key_base = ENV['SECRET_KEY_BASE']
